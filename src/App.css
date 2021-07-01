@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.home{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+height:100vh;
+}
+
+.beer-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(179, 172, 172);
+}
+
+.description{
+  width:60%;
+  text-align: start;
+  
+}
+.beer-image{
+  width: 30%;
+  
+}
+.beer-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.beer-description{
+  text-align: start;
+  padding: 2em;
+}
+
+.beer-info{
+  display: flex;
+  justify-content: space-between;
+  
+}
